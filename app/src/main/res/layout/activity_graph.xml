@@ -9,128 +9,108 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="390dp"
-        android:layout_height="200dp"
-        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginTop="80dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="130dp"
-            android:layout_height="match_parent">
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="7dp">
 
             <ProgressBar
                 android:id="@+id/stressBar"
                 style="?android:attr/progressBarStyle"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginStart="21dp"
-                android:layout_marginTop="33dp"
-                android:layout_marginEnd="21dp"
-                android:layout_marginBottom="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
                 android:indeterminateOnly="false"
-                tools:progress="60"
                 android:progressDrawable="@drawable/circle1"
-                app:layout_constraintBottom_toTopOf="@+id/stress"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
+                app:layout_constraintTop_toTopOf="parent"
+                tools:progress="60" />
 
             <TextView
                 android:id="@+id/stress"
-                android:layout_width="100dp"
-                android:layout_height="75dp"
-                android:layout_marginStart="28dp"
-                android:layout_marginTop="120dp"
-                android:layout_marginEnd="27dp"
-                android:gravity="center"
-                android:textSize="15sp"
-                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
                 android:fontFamily="@font/arial"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toBottomOf="@+id/stressBar" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="130dp"
-            android:layout_height="match_parent">
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="7dp">
 
             <ProgressBar
                 android:id="@+id/depressionBar"
                 style="?android:attr/progressBarStyle"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginStart="21dp"
-                android:layout_marginTop="33dp"
-                android:layout_marginEnd="21dp"
-                android:layout_marginBottom="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
                 android:indeterminateOnly="false"
                 android:progressDrawable="@drawable/circle1"
                 app:layout_constraintBottom_toTopOf="@+id/depression"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.538"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                tools:progress="60" />
 
             <TextView
                 android:id="@+id/depression"
-                android:layout_width="100dp"
-                android:layout_height="75dp"
-                android:layout_marginStart="27dp"
-                android:layout_marginTop="120dp"
-                android:layout_marginEnd="28dp"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:fontFamily="@font/arial"
                 android:gravity="center"
                 android:textColor="@color/black"
-                android:fontFamily="@font/arial"
                 android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toBottomOf="@+id/depressionBar" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="129dp"
-            android:layout_height="match_parent">
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="7dp">
 
             <ProgressBar
                 android:id="@+id/anxietyBar"
                 style="?android:attr/progressBarStyle"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginStart="21dp"
-                android:layout_marginTop="33dp"
-                android:layout_marginEnd="21dp"
-                android:layout_marginBottom="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
                 android:indeterminateOnly="false"
                 android:progressDrawable="@drawable/circle1"
                 app:layout_constraintBottom_toTopOf="@+id/anxiety"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.428"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                tools:progress="60" />
 
             <TextView
                 android:id="@+id/anxiety"
-                android:layout_width="100dp"
-                android:layout_height="75dp"
-                android:layout_marginStart="27dp"
-                android:layout_marginTop="120dp"
-                android:layout_marginEnd="28dp"
-                android:layout_marginBottom="5dp"
-                android:gravity="center"
-                android:textSize="15sp"
-                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
                 android:fontFamily="@font/arial"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="15sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.423"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="1.0" />
+                app:layout_constraintTop_toBottomOf="@+id/anxietyBar" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </LinearLayout>
 
