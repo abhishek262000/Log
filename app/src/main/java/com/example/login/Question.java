@@ -3,7 +3,7 @@ package com.example.login;
 public class Question {
     private static final char DEPRESSION = 'd';
     private static final char STRESS = 's';
-    private static final char AXIETY = 'a';
+    private static final char ANXIETY = 'a';
     private String question;
     private char type;
     private static Question[] questionnaire;
