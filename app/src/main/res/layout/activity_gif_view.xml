@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/log"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GifView">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/sun" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="254dp"
+
+        android:layout_above="@+id/card1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="145dp"
+        android:background="#99141414"
+        android:fontFamily="@font/spirax"
+        android:gravity="center"
+        android:text="StressCheck"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="296dp"
+        android:layout_height="67dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="117dp"
+        android:backgroundTint="#99141414"
+        app:cardBackgroundColor="#c71585"
+        app:cardCornerRadius="30dp">
+
+        <TextView
+            android:id="@+id/reg1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Register"
+            android:textColor="#D1CB96"
+            android:textSize="30sp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="296dp"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="209dp"
+        android:backgroundTint="#99141414"
+        app:cardBackgroundColor="#7c9ec3"
+        app:cardCornerRadius="30dp">
+
+        <TextView
+            android:id="@+id/log1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Login"
+            android:textColor="#D1CB96"
+            android:textSize="30sp" />
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

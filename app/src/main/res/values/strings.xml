@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="output2">depression1</string>
+    <string name="next">Next</string>
+    <string name="exit">Exit</string>
+    <string name="rarely">Do not apply to me at all</string>
+    <string name="sometimes">Apply to me to some degree, or some of the time</string>
+    <string name="quite_sometimes">Apply to me to a considerable degree</string>
+    <string name="mostly">Applied to me very much or most of the time</string>
+    <string name="start">Start</string>
+</resources>
