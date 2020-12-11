@@ -3,9 +3,9 @@
     <item>
         <shape
             android:shape="ring"
-            android:thicknessRatio="20"
+            android:thicknessRatio="10"
             android:useLevel="false">
-            <solid android:color="#d5d5d5" />
+            <solid android:color="#ffffff" />
         </shape>
     </item>
     <item>
@@ -14,11 +14,11 @@
             android:toDegrees="270">
             <shape
                 android:shape="ring"
-                android:thicknessRatio="20"
+                android:thicknessRatio="10"
                 android:useLevel="true">
                 <gradient
-                    android:startColor="@color/black"
-                    android:endColor="@color/black"
+                    android:startColor="@color/red"
+                    android:endColor="#0000ff"
                     android:type="linear" />
             </shape>
         </rotate>
